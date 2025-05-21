@@ -14,6 +14,8 @@ int main() {
      */
 
     char *torre [10] , *rainha [10], *bispo [20];
+    char *cavalo [10];
+
 //movimentaçao da torre 
     printf("TORRE: \n");
     for (int i = 0; i<5; i ++){
@@ -33,6 +35,17 @@ int main() {
     for (int i = 0; i< 8; i++){
         printf("DIREITA\n");
     }
+    printf ("\n");
+//movimebtaçao do cavalo     
+    printf("CAVALO: \n");
+    for (int i = 0; i< 1; i++){
+        for (int b=0; b<2; b++){
+            printf("CIMA\n");
+        }
+        printf("DIREITA\n");
+    }
+    printf ("\n");
+
 
 
 
