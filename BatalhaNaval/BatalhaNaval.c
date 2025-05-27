@@ -64,6 +64,17 @@ int main() {
           if(i==2) break;
 
       }
+    //formas geometricas
+    
+      //triangulo (base com 5 casas).
+        for(int i=4 ; i < 7 ; i++){
+            for(int j=0 ; j<5 ; j++){
+                if( (j<=i-2) && (i+j > 5)){
+                    tabuleiro [i][j] = 5;
+                }
+            }
+        }
+
    
    
 
